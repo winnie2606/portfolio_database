@@ -21,5 +21,5 @@ def checkPerson():
 		who = 'teacherofficer'
 	person = str(who) + '.html'
 	return redirect(url_for('static', filename=person))
-
+#pair is coming
 app.run(debug=True)
