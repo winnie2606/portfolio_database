@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename="login-context.css")}}" />
+	</head>
+	<body>
+		<div align="center">
+			<br><br><br>
+			<img src="static/fibosymbol.png" width="25%" height="25%">
+			<br>
+			<form id="contact-form" action="{{ url_for('checkPerson')}}", method="POST">
+				<input id="text1" type = "text" placeholder = "USER ID" name = "id" class = "in1"/>
+				<br><br>
+				<input id="text1" type = "password" placeholder = "PASSWORD" name = "pass" class = "in1" />
+				<br><br>
+				<input type = "submit" value = "login"/>
+				<br>
+				<!--<a href="{{url_for('static', filename="sim2.html")}}"><img src="static/login.png" width="15%" height="15%"></a>-->
+			</form>
+		</div>
+	</body>
+</html>

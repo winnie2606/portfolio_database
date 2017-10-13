@@ -1,0 +1,13 @@
+<!Doctype html>
+	<head>
+	<title>login</title>
+</head>
+<body>
+	<div align="center">
+	<form id="contact-form" action="{{ url_for('checkPerson')}}", method="POST">
+		<p><input type = "text" placeholder = "USER ID" name = "id"/></p>
+		<p><input type = "text" placeholder = "PASSWORD" name = "pass"/></p>
+		<p><input type = "submit" value = "login" /></p>
+	</form>
+</body>
+</html>
