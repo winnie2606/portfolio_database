@@ -8,9 +8,15 @@ def index():
     return render_template('index.html')
 @app.route('/save',methods=['POST','GET'])
 def save():
-    x = dict(request.form.items())
-    return "acceived %s"%(x)
+    if request.method == 'POST':
+        user = request.form['User']
+        password = request.form['Password']
+        return user +','+password
 app.run(debug=True)
 
 
-def
+
+
+
+
+

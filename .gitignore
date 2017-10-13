@@ -1,11 +1,11 @@
-# ignore "no keep *.txt" in all directory
-no keep *.txt
+# ignore "nokeep *.txt" in all directory
+nokeep *.txt
  
-# ignore "no keep *.txt" in root directory
-/no keep *.txt
+# ignore "nokeep *.txt" in root directory
+/nokeep *.txt
  
-# ignore "no keep *.txt" in directory "keep/no keep" in root directory
-/keep/no keep/no keep *.txt
+# ignore "nokeep *.txt" in directory "keep/nokeep" in root directory
+/keep/nokeep/nokeep *.txt
  
-# ignore "all" file in directory "no keep" in root directory
-/no keep/
+# ignore "all" file in directory "nokeep" in root directory
+/nokeep/
